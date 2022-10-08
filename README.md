@@ -18,9 +18,9 @@ MacOSのみ。BigSurで検証した際は動きました。
 OpenCoreなどを書き込みたいデバイスを接続します。
 
 MacOSのターミナルを起動し以下コマンドを貼り付けて実行します
-
-例:) bash <(curl -s https://raw.githubusercontent.com/Aoi-Developer/MacOS-EFI-mounter/main/main.sh)
-
+```sh
+bash <(curl -s https://raw.githubusercontent.com/Aoi-Developer/MacOS-EFI-mounter/main/main.sh)
+```
 表示されたパーティションを番号で指定しEnterキーを押します。(disk0は大体OSがインストールされたデバイスです)
 現在ログインしているユーザのパスワードを入力してEnterを押します。
 
