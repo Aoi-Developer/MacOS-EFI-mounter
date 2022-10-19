@@ -19,7 +19,7 @@ OpenCoreなどを書き込みたいデバイスを接続します。
 
 MacOSのターミナルを起動し以下コマンドを貼り付けて実行します
 ```sh
-bash <(curl -s https://raw.githubusercontent.com/Aoi-Developer/MacOS-EFI-mounter/main/main.sh)
+bash <(curl -s https://raw.githubusercontent.com/Aoi-Developer/MacOS-EFI-mounter/main/main.command)
 ```
 表示されたパーティションを番号で指定しEnterキーを押します。(disk0は大体OSがインストールされたデバイスです)
 現在ログインしているユーザのパスワードを入力してEnterを押します。
